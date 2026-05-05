@@ -3,20 +3,295 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>My Website</title>
+    <meta
+      name="description"
+      content="Portfolio website for Siddharth Gianchandani, a curious data science builder exploring AI agents, social systems, and useful technology."
+    >
+    <title>Siddharth Gianchandani | Data Science & AI Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=Playfair+Display:wght@700&display=swap"
+      rel="stylesheet"
+    >
     <link rel="stylesheet" href="assets/css/styles.css">
   </head>
   <body>
-    <main class="page">
-      <section class="intro">
-        <p class="eyebrow">GitHub Pages Starter</p>
-        <h1>My Website</h1>
-        <p>
-          This is a clean static website starter. Edit this page, push it to a
-          GitHub repository, and enable GitHub Pages to host it.
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header" aria-label="Primary navigation">
+      <a class="brand" href="#top" aria-label="Siddharth Gianchandani home">
+        <span class="brand-mark">SG</span>
+        <span>Siddharth</span>
+      </a>
+
+      <nav class="nav-links" aria-label="Site sections">
+        <a href="#profile">Profile</a>
+        <a href="#skills">Skills</a>
+        <a href="#projects">Projects</a>
+        <a href="#passions">Passions</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <button class="icon-button theme-toggle" type="button" aria-label="Toggle color theme" title="Toggle theme">
+        <svg aria-hidden="true" viewBox="0 0 24 24">
+          <path d="M12 3v2.4M12 18.6V21M4.7 4.7l1.7 1.7M17.6 17.6l1.7 1.7M3 12h2.4M18.6 12H21M4.7 19.3l1.7-1.7M17.6 6.4l1.7-1.7"></path>
+          <circle cx="12" cy="12" r="4.4"></circle>
+        </svg>
+      </button>
+    </header>
+
+    <main id="main">
+      <section class="hero section-band" id="top" aria-labelledby="hero-title">
+        <div class="hero-media" aria-hidden="true">
+          <img
+            src="https://commons.wikimedia.org/wiki/Special:Redirect/file/Social_Network_Analysis_Visualization.png"
+            alt=""
+          >
+        </div>
+        <div class="hero-content">
+          <p class="eyebrow">Data science | AI systems | Curious builder</p>
+          <h1 id="hero-title">Siddharth Gianchandani</h1>
+          <p class="hero-copy">
+            Curious by default. Building at the intersection of data science,
+            AI agents, social systems, and products that help people think
+            with more range.
+          </p>
+          <div class="hero-actions" aria-label="Primary actions">
+            <a class="button primary" href="#projects">Explore work</a>
+            <a class="button ghost" href="https://www.linkedin.com/in/siddharth-gianchandani" target="_blank" rel="noreferrer">
+              LinkedIn
+            </a>
+          </div>
+        </div>
+        <aside class="signal-panel" aria-label="Profile highlights">
+          <div>
+            <span class="metric">AI</span>
+            <span>agent experiments</span>
+          </div>
+          <div>
+            <span class="metric">Data</span>
+            <span>decision systems</span>
+          </div>
+          <div>
+            <span class="metric">curious</span>
+            <span>profile thesis</span>
+          </div>
+        </aside>
+      </section>
+
+      <section class="profile section-band" id="profile" aria-labelledby="profile-title">
+        <div class="section-heading">
+          <p class="eyebrow">Profile</p>
+          <h2 id="profile-title">A data scientist with a builder's instinct.</h2>
+        </div>
+        <div class="profile-grid">
+          <p class="lead">
+            Siddharth's public profile has a compact signal: curious. This site
+            turns that instinct into a portfolio for research-minded product
+            work, experimental AI, data science, and thoughtful technical
+            storytelling.
+          </p>
+          <div class="focus-list" aria-label="Current focus areas">
+            <article>
+              <span>01</span>
+              <h3>AI agents</h3>
+              <p>Exploring digital assistants that reason, transact, coordinate, and extend human agency.</p>
+            </article>
+            <article>
+              <span>02</span>
+              <h3>Data products</h3>
+              <p>Turning messy information into decision tools, narratives, dashboards, and experiments.</p>
+            </article>
+            <article>
+              <span>03</span>
+              <h3>Human systems</h3>
+              <p>Studying how people, incentives, interfaces, and institutions shape what technology becomes.</p>
+            </article>
+          </div>
+        </div>
+      </section>
+
+      <section class="skills section-band" id="skills" aria-labelledby="skills-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Skills</p>
+          <h2 id="skills-title">Technical range with social context.</h2>
+        </div>
+        <div class="skill-matrix">
+          <article class="skill-column">
+            <h3>Data Science</h3>
+            <ul>
+              <li>Statistical thinking</li>
+              <li>Machine learning workflows</li>
+              <li>Experiment design</li>
+              <li>Data visualization</li>
+            </ul>
+          </article>
+          <article class="skill-column">
+            <h3>AI & Agents</h3>
+            <ul>
+              <li>LLM product concepts</li>
+              <li>Agentic workflows</li>
+              <li>Prompt systems</li>
+              <li>Evaluation mindsets</li>
+            </ul>
+          </article>
+          <article class="skill-column">
+            <h3>Product & Research</h3>
+            <ul>
+              <li>User-centered discovery</li>
+              <li>Systems mapping</li>
+              <li>Technical writing</li>
+              <li>Strategy synthesis</li>
+            </ul>
+          </article>
+          <article class="skill-column accent">
+            <h3>Creative Edge</h3>
+            <ul>
+              <li>Speculative prototypes</li>
+              <li>Storytelling</li>
+              <li>Community building</li>
+              <li>Interdisciplinary curiosity</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section class="projects section-band" id="projects" aria-labelledby="projects-title">
+        <div class="section-heading">
+          <p class="eyebrow">Projects</p>
+          <h2 id="projects-title">Portfolio concepts ready to become GitHub repos.</h2>
+        </div>
+        <div class="project-showcase">
+          <article class="project-card featured">
+            <div class="project-topline">
+              <span>AI agents</span>
+              <span>Prototype</span>
+            </div>
+            <h3>Agentic Life Simulator</h3>
+            <p>
+              A research prototype for modeling AI agents that negotiate tasks,
+              budgets, preferences, and trust across simulated daily scenarios.
+            </p>
+            <div class="tags">
+              <span>LLMs</span>
+              <span>Simulation</span>
+              <span>Behavior</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Data product</span>
+              <span>Dashboard</span>
+            </div>
+            <h3>Signal Atlas</h3>
+            <p>
+              A visual dashboard concept that connects public datasets with
+              decision-making, pattern discovery, and clear data narratives.
+            </p>
+            <div class="tags">
+              <span>Python</span>
+              <span>Maps</span>
+              <span>Policy</span>
+            </div>
+          </article>
+
+          <article class="project-card">
+            <div class="project-topline">
+              <span>Research</span>
+              <span>Essay series</span>
+            </div>
+            <h3>Curious Systems</h3>
+            <p>
+              A writing series about digital clones, markets for attention,
+              AI-mediated relationships, and the ethics of automation.
+            </p>
+            <div class="tags">
+              <span>Writing</span>
+              <span>AI ethics</span>
+              <span>Society</span>
+            </div>
+          </article>
+        </div>
+      </section>
+
+      <section class="timeline section-band" aria-labelledby="timeline-title">
+        <div class="section-heading compact">
+          <p class="eyebrow">Trajectory</p>
+          <h2 id="timeline-title">Learning in public, building with intent.</h2>
+        </div>
+        <ol class="timeline-list">
+          <li>
+            <time>Now</time>
+            <div>
+              <h3>Data science and AI systems</h3>
+              <p>Deepening the craft of applied analysis, model thinking, and useful technical products.</p>
+            </div>
+          </li>
+          <li>
+            <time>Next</time>
+            <div>
+              <h3>Applied AI systems</h3>
+              <p>Developing practical experiments around agents, decision support, and intelligent interfaces.</p>
+            </div>
+          </li>
+          <li>
+            <time>Always</time>
+            <div>
+              <h3>Curiosity as method</h3>
+              <p>Using questions as a way into code, strategy, research, and creative work.</p>
+            </div>
+          </li>
+        </ol>
+      </section>
+
+      <section class="passions section-band" id="passions" aria-labelledby="passions-title">
+        <div class="section-heading">
+          <p class="eyebrow">Passions</p>
+          <h2 id="passions-title">The questions behind the work.</h2>
+        </div>
+        <div class="passion-grid">
+          <article>
+            <h3>Digital identity</h3>
+            <p>What happens when agents, credentials, and personal data become extensions of the self?</p>
+          </article>
+          <article>
+            <h3>Useful intelligence</h3>
+            <p>How can AI move from impressive demos to tools that genuinely reduce cognitive load?</p>
+          </article>
+          <article>
+            <h3>Cities & culture</h3>
+            <p>How do places, communities, and online networks create the density of ideas that makes new work possible?</p>
+          </article>
+          <article>
+            <h3>Playful rigor</h3>
+            <p>How do you keep analysis serious without making the process dull, brittle, or joyless?</p>
+          </article>
+        </div>
+      </section>
+
+      <section class="contact section-band" id="contact" aria-labelledby="contact-title">
+        <div class="contact-inner">
+          <div>
+            <p class="eyebrow">Contact</p>
+            <h2 id="contact-title">Bring a strange question, a dataset, or a product idea.</h2>
+          </div>
+          <div class="contact-actions">
+            <a class="button primary" href="https://www.linkedin.com/in/siddharth-gianchandani" target="_blank" rel="noreferrer">
+              Connect on LinkedIn
+            </a>
+            <a class="button ghost" href="#projects">
+              See project ideas
+            </a>
+          </div>
+        </div>
+        <p class="credit">
+          Hero image: Social network analysis visualization, via Wikimedia Commons.
         </p>
       </section>
     </main>
+
     <script src="assets/js/main.js"></script>
   </body>
 </html>
