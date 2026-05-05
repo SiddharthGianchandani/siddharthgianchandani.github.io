@@ -19,8 +19,9 @@ The LinkedIn button already points to:
 ## Future Project Plans
 
 Project specs live in `project-plans/`. These files are planning documents for
-future portfolio projects, including Signal Atlas, a Data Science Agent, a Stock
-Market Agent, and a multilingual OCR service deployed on Kubernetes.
+future portfolio projects, including Signal Atlas, a Sales Data Science Agent,
+a Multi-Agent Stock Market Research System, and a multilingual OCR service
+deployed on Kubernetes.
 
 ## Host On GitHub Pages
 

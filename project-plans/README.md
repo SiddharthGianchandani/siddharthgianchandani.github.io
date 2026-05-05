@@ -17,23 +17,23 @@ build in public, then link the finished repository from the website.
 
 ## Project Options
 
-- [Signal Atlas](signal-atlas.md): a data storytelling and signal discovery dashboard.
-- [Data Science Agent](data-science-agent.md): an AI assistant that profiles datasets, proposes analysis, and generates reproducible notebooks.
-- [Stock Market Agent](stock-market-agent.md): an agentic research system for market monitoring, portfolio watchlists, and risk-aware summaries.
+- [Signal Atlas](signal-atlas.md): a hypothesis discovery engine that ranks dataset signals and hands them to statistical validation.
+- [Sales Data Science Agent](data-science-agent.md): an Excel-based analytics agent for customer sales data and statistical tests.
+- [Multi-Agent Stock Market Research System](stock-market-agent.md): an 11-agent investment research system with strategy agents, company stability research, and five-year price analysis.
 - [Multilingual OCR On Kubernetes](kubernetes-ml-deployment.md): an OCR service for English and Indian languages deployed with Docker and Kubernetes.
 
 ## Portfolio Positioning
 
 Together, these projects show a clear arc:
 
-- Data thinking: finding patterns and explaining them.
+- Data thinking: finding candidate patterns, ranking them, and turning them into testable hypotheses.
 - AI systems: designing agents that reason over data and tools.
 - Finance curiosity: applying agents to noisy, high-stakes information.
 - Engineering depth: deploying and maintaining model-backed services with modern infrastructure.
 
 ## Build Order
 
-1. `Signal Atlas`: easiest to demo visually and link on the site.
-2. `Data Science Agent`: builds naturally on dataset exploration.
+1. `Signal Atlas`: easiest to demo visually and a natural feeder into the Sales Data Science Agent.
+2. `Sales Data Science Agent`: builds naturally on dataset exploration and practical business analytics.
 3. `Multilingual OCR On Kubernetes`: proves engineering maturity through a real inference service.
-4. `Stock Market Agent`: save for later because finance workflows require careful disclaimers, evaluations, and data-source decisions.
+4. `Multi-Agent Stock Market Research System`: save for later because finance workflows require careful disclaimers, evaluations, and data-source decisions.
