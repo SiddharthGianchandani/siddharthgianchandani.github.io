@@ -17,6 +17,8 @@ build in public, then link the finished repository from the website.
 
 ## Project Options
 
+- [Enterprise Analytics Automation Harness](enterprise-analytics-automation-harness.md): an anonymized agent-enabled workflow for Power BI maintenance, database data-quality checks, and sprint documentation.
+- [AI Job Discovery Assistant](ai-job-discovery-assistant.md): a local-first job discovery and ranking workflow with user-controlled bookmarking and an in-progress Ollama integration.
 - [Signal Atlas](signal-atlas.md): a hypothesis discovery engine that ranks dataset signals and hands them to statistical validation.
 - [Sales Data Science Agent](data-science-agent.md): an Excel-based analytics agent for customer sales data and statistical tests.
 - [Multi-Agent Stock Market Research System](stock-market-agent.md): an 11-agent investment research system with strategy agents, company stability research, and five-year price analysis.
@@ -26,6 +28,9 @@ build in public, then link the finished repository from the website.
 
 Together, these projects show a clear arc:
 
+- Software engineering: designing reliable workflows, validation paths, review gates, and maintainable automation.
+- Enterprise automation: applying AI-assisted orchestration to recurring analytics and documentation work without exposing confidential context.
+- Responsible AI: keeping people in control of agent-assisted job discovery, using local models deliberately, and respecting platform boundaries.
 - Data thinking: finding candidate patterns, ranking them, and turning them into testable hypotheses.
 - AI systems: designing agents that reason over data and tools.
 - Finance curiosity: applying agents to noisy, high-stakes information.

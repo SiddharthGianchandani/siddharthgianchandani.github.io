@@ -44,7 +44,7 @@ themeToggle?.addEventListener("click", () => {
 });
 
 const revealItems = document.querySelectorAll(
-  ".section-heading, .profile-grid, .skill-column, .project-card, .timeline-list li, .passion-grid article, .contact-inner"
+  ".section-heading, .profile-grid, .skill-column, .approach-grid article, .experience-entry, .education-grid article, .contact-inner"
 );
 
 revealItems.forEach((item) => item.classList.add("reveal"));
